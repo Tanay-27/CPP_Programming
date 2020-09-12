@@ -8,20 +8,22 @@
 - Methods − A method is basically a behavior. A class can contain many methods. It is in methods where the logics are written, data is manipulated and all the actions are executed.
 - Instance Variables − Each object has its unique set of instance variables. An object's state is created by the values assigned to these instance variables.
 #### Hello World in C++
-`#include <iostream>
+```
+#include <iostream>
 using namespace std;
 
 // main() is where program execution begins.
 int main() {
    cout << "Hello World"; // prints Hello World
    return 0;
-}`
+}
+```
 #### Trigraphs
 - A few characters have an alternative representation, called a trigraph sequence. A trigraph is a three-character sequence that represents a single character and the sequence always starts with two question marks.
 Trigraphs are expanded anywhere they appear, including within string literals and character literals, in comments, and in preprocessor directives.
 
 #### To know size of various data types
-` #include <iostream>
+``` #include <iostream>
 using namespace std;
 int main() {
    cout << "Size of char : " << sizeof(char) << endl;
@@ -33,7 +35,8 @@ int main() {
    cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
    
    return 0;
-} `
+} 
+```
 #### Typedef
 You can create a new name for an existing type using typedef. Following is the simple syntax to define a new type using typedef −
 `typedef type newname; `
