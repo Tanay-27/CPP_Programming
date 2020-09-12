@@ -21,7 +21,7 @@ int main() {
 Trigraphs are expanded anywhere they appear, including within string literals and character literals, in comments, and in preprocessor directives.
 
 #### To know size of various data types
-`#include <iostream>
+` #include <iostream>
 using namespace std;
 int main() {
    cout << "Size of char : " << sizeof(char) << endl;
@@ -33,7 +33,7 @@ int main() {
    cout << "Size of wchar_t : " << sizeof(wchar_t) << endl;
    
    return 0;
-}`
+} `
 #### Typedef
 You can create a new name for an existing type using typedef. Following is the simple syntax to define a new type using typedef −
 `typedef type newname; `
