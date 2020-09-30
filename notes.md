@@ -90,3 +90,14 @@ min max shift apply functions are easily calculated
 
 https://www.geeksforgeeks.org/std-valarray-class-c/
 
+Map mein iteration
+```    for (itr = gquiz2.begin(); itr != gquiz2.end(); ++itr) { 
+        cout << '\t' << itr->first 
+             << '\t' << itr->second << '\n'; 
+    } ```
+
+
+TO find if key is present
+ if (m.find(key) == m.end()) 
+        return "Not Present"; 
+        
